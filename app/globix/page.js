@@ -31,7 +31,6 @@ export default function Home() {
         fetchNotes(user.uid);
       } else {
         setUser(null);
-        router.push("/");
       }
     });
     return () => unsubscribe();
