@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav className='p-4 bg-gray-800 text-white flex justify-between items-center'>
-      <div className='text-2xl font-bold'>Globix</div>
+      <div className='text-2xl font-bold'>another Navbar</div>
       <div>
         {user ? (
           <div className='flex items-center'>

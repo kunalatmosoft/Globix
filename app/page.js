@@ -8,7 +8,7 @@ export default function SecureNotesLanding() {
   return (
     <div className={`min-h-screen bg-gradient-to-br from-gray-900 to-black text-white ${inter.className}`}>
       <header className="p-6 flex justify-between items-center">
-        <div className="text-2xl font-bold">Globix</div>
+        <div className="text-2xl font-bold"><Link href="/level">Globix</Link></div>
         <nav>
         </nav>
       </header>
