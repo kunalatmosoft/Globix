@@ -1,4 +1,4 @@
-"use client";
+/* "use client";
 import React from 'react';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
@@ -91,6 +91,34 @@ export default function SecureNotesLanding() {
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
       `}</style>
+    </div>
+  );
+}
+
+ */
+
+
+import Link from 'next/link';
+import SignIn from '@/components/SignIn';
+import SignUp from '@/components/SignUp';
+
+export default function Home() {
+  return (
+    <div className="max-w-4xl mx-auto">
+      <h1 className="text-3xl font-bold mb-8 text-center">Welcome to Social Profiles</h1>
+      <div className="grid md:grid-cols-2 gap-8">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-xl font-semibold mb-4">Sign In</h2>
+          <SignIn />
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-xl font-semibold mb-4">Sign Up</h2>
+          <SignUp />
+        </div>
+      </div>
+      <p className="mt-8 text-center">
+        View a sample profile: <Link href="/profile/sampleuser" className="text-blue-500 hover:underline">Sample User</Link>
+      </p>
     </div>
   );
 }
