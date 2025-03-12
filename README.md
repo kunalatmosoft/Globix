@@ -1,4 +1,4 @@
-# Atmosoft Presents Globix
+# Atmosoft Presents Globlix
 
 An intuitive way to organize your daily life tasks!
 
